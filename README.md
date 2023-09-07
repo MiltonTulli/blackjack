@@ -35,6 +35,10 @@ Endpoints available are:
 - `POST:: /api/rounds`: insert a new round in db
 - `GET:: /api/user/{userName}/rounds`: return rounds by userName
 
+### Image
+<img width="1715" alt="Screenshot 2023-09-07 at 15 58 40" src="https://github.com/MiltonTulli/blackjack/assets/25844967/d6db4aeb-dea3-4ecc-9ad1-011793efbfbe">
+
+
 ## Author
 
 [Milton Tulli](https://github.com/miltontulli)
