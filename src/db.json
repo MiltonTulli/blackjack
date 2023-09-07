@@ -1,0 +1,989 @@
+{
+  "rounds": [
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "6",
+                "weight": 6
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "9",
+                "weight": 9
+              },
+              {
+                "symbol": "Hearts",
+                "value": "8",
+                "weight": 8
+              }
+            ],
+            "done": true,
+            "value": 23,
+            "winner": false
+          }
+        },
+        {
+          "id": 19719266,
+          "name": "asd",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Diamonds",
+                "value": "9",
+                "weight": 9
+              },
+              {
+                "symbol": "Clubs",
+                "value": "7",
+                "weight": 7
+              }
+            ],
+            "done": true,
+            "value": 16,
+            "winner": true
+          }
+        }
+      ],
+      "id": "1694107961095-6dzecohkec-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694107961095,
+      "winner": {
+        "id": 19719266,
+        "name": "asd",
+        "order": 1,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Diamonds",
+              "value": "9",
+              "weight": 9
+            },
+            {
+              "symbol": "Clubs",
+              "value": "7",
+              "weight": 7
+            }
+          ],
+          "done": true,
+          "value": 16,
+          "winner": true
+        }
+      },
+      "winnerValue": 16,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "8",
+                "weight": 8
+              },
+              {
+                "symbol": "Clubs",
+                "value": "Q",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 18,
+            "winner": true
+          }
+        },
+        {
+          "id": 55352261,
+          "name": "asd",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Clubs",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "symbol": "Clubs",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "symbol": "Spades",
+                "value": "8",
+                "weight": 8
+              }
+            ],
+            "done": true,
+            "value": 15,
+            "winner": false
+          }
+        }
+      ],
+      "id": "1694108141187-tzxlo0une4-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694108141188,
+      "winner": {
+        "id": 0,
+        "name": "Dealer",
+        "order": 0,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Hearts",
+              "value": "8",
+              "weight": 8
+            },
+            {
+              "symbol": "Clubs",
+              "value": "Q",
+              "weight": 10
+            }
+          ],
+          "done": false,
+          "value": 18,
+          "winner": false
+        }
+      },
+      "winnerValue": 18,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Diamonds",
+                "value": "9",
+                "weight": 9
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "8",
+                "weight": 8
+              }
+            ],
+            "done": true,
+            "value": 21,
+            "winner": true
+          }
+        },
+        {
+          "id": 41702231,
+          "name": "asd",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "symbol": "Hearts",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "symbol": "Hearts",
+                "value": "10",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 15,
+            "winner": false
+          }
+        }
+      ],
+      "id": "1694108193286-xsmdd1debs-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694108193286,
+      "winner": {
+        "id": 0,
+        "name": "Dealer",
+        "order": 0,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Diamonds",
+              "value": "9",
+              "weight": 9
+            },
+            {
+              "symbol": "Diamonds",
+              "value": "4",
+              "weight": 4
+            },
+            {
+              "symbol": "Diamonds",
+              "value": "8",
+              "weight": 8
+            }
+          ],
+          "done": false,
+          "value": 21,
+          "winner": false
+        }
+      },
+      "winnerValue": 21,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "symbol": "Spades",
+                "value": "7",
+                "weight": 7
+              },
+              {
+                "symbol": "Hearts",
+                "value": "7",
+                "weight": 7
+              }
+            ],
+            "done": true,
+            "value": 19,
+            "winner": true
+          }
+        },
+        {
+          "id": 48281878,
+          "name": "asd",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "Q",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 15,
+            "winner": false
+          }
+        }
+      ],
+      "id": "1694108623141-815fr7ho34-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694108623141,
+      "winner": {
+        "id": 0,
+        "name": "Dealer",
+        "order": 0,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Hearts",
+              "value": "5",
+              "weight": 5
+            },
+            {
+              "symbol": "Spades",
+              "value": "7",
+              "weight": 7
+            },
+            {
+              "symbol": "Hearts",
+              "value": "7",
+              "weight": 7
+            }
+          ],
+          "done": false,
+          "value": 19,
+          "winner": false
+        }
+      },
+      "winnerValue": 19,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Clubs",
+                "value": "J",
+                "weight": 10
+              },
+              {
+                "symbol": "Clubs",
+                "value": "J",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 20,
+            "winner": true
+          }
+        },
+        {
+          "id": 48281878,
+          "name": "asd",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "symbol": "Spades",
+                "value": "6",
+                "weight": 6
+              },
+              {
+                "symbol": "Clubs",
+                "value": "9",
+                "weight": 9
+              }
+            ],
+            "done": true,
+            "value": 17,
+            "winner": false
+          }
+        }
+      ],
+      "id": "1694109321818-dgp2imfd8x-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694109321818,
+      "winner": {
+        "id": 0,
+        "name": "Dealer",
+        "order": 0,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Clubs",
+              "value": "J",
+              "weight": 10
+            },
+            {
+              "symbol": "Clubs",
+              "value": "J",
+              "weight": 10
+            }
+          ],
+          "done": false,
+          "value": 20,
+          "winner": true
+        }
+      },
+      "winnerValue": 20,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Clubs",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "K",
+                "weight": 10
+              },
+              {
+                "symbol": "Spades",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "done": true,
+            "value": 17,
+            "winner": true
+          }
+        },
+        {
+          "id": 48281878,
+          "name": "asd",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Clubs",
+                "value": "Q",
+                "weight": 10
+              },
+              {
+                "symbol": "Spades",
+                "value": "4",
+                "weight": 4
+              }
+            ],
+            "done": true,
+            "value": 14,
+            "winner": false
+          }
+        }
+      ],
+      "id": "1694109370901-lvmcoom4kb-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694109370901,
+      "winner": {
+        "id": 0,
+        "name": "Dealer",
+        "order": 0,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Clubs",
+              "value": "4",
+              "weight": 4
+            },
+            {
+              "symbol": "Diamonds",
+              "value": "K",
+              "weight": 10
+            },
+            {
+              "symbol": "Spades",
+              "value": "3",
+              "weight": 3
+            }
+          ],
+          "done": false,
+          "value": 17,
+          "winner": true
+        }
+      },
+      "winnerValue": 17,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Spades",
+                "value": "2",
+                "weight": 2
+              },
+              {
+                "symbol": "Hearts",
+                "value": "10",
+                "weight": 10
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "Q",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 22,
+            "winner": true
+          }
+        },
+        {
+          "id": 48281878,
+          "name": "asd",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "Q",
+                "weight": 10
+              },
+              {
+                "symbol": "Hearts",
+                "value": "A",
+                "weight": 11
+              }
+            ],
+            "done": true,
+            "value": 21,
+            "winner": true
+          }
+        }
+      ],
+      "id": "1694109411804-dxe3ffqlnt-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694109411804,
+      "winner": {
+        "id": 48281878,
+        "name": "asd",
+        "order": 1,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Hearts",
+              "value": "Q",
+              "weight": 10
+            },
+            {
+              "symbol": "Hearts",
+              "value": "A",
+              "weight": 11
+            }
+          ],
+          "done": true,
+          "value": 21,
+          "winner": true
+        }
+      },
+      "winnerValue": 21,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "7",
+                "weight": 7
+              },
+              {
+                "symbol": "Spades",
+                "value": "10",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 17,
+            "winner": false
+          }
+        },
+        {
+          "id": 25611874,
+          "name": "Paulita",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Diamonds",
+                "value": "K",
+                "weight": 10
+              },
+              {
+                "symbol": "Spades",
+                "value": "K",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 20,
+            "winner": true
+          }
+        },
+        {
+          "id": 10060483,
+          "name": "Milti",
+          "order": 2,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Spades",
+                "value": "7",
+                "weight": 7
+              },
+              {
+                "symbol": "Clubs",
+                "value": "8",
+                "weight": 8
+              },
+              {
+                "symbol": "Clubs",
+                "value": "Q",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 25,
+            "winner": false
+          }
+        }
+      ],
+      "id": "1694109694087-8xu0iivof2-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694109694087,
+      "winner": {
+        "id": 25611874,
+        "name": "Paulita",
+        "order": 1,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Diamonds",
+              "value": "K",
+              "weight": 10
+            },
+            {
+              "symbol": "Spades",
+              "value": "K",
+              "weight": 10
+            }
+          ],
+          "done": true,
+          "value": 20,
+          "winner": true
+        }
+      },
+      "winnerValue": 20,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "9",
+                "weight": 9
+              },
+              {
+                "symbol": "Spades",
+                "value": "A",
+                "weight": 11
+              }
+            ],
+            "done": true,
+            "value": 20,
+            "winner": true
+          }
+        },
+        {
+          "id": 25611874,
+          "name": "Paulita",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Diamonds",
+                "value": "6",
+                "weight": 6
+              },
+              {
+                "symbol": "Clubs",
+                "value": "9",
+                "weight": 9
+              },
+              {
+                "symbol": "Spades",
+                "value": "3",
+                "weight": 3
+              }
+            ],
+            "done": true,
+            "value": 18,
+            "winner": true
+          }
+        },
+        {
+          "id": 10060483,
+          "name": "Milti",
+          "order": 2,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Clubs",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "symbol": "Spades",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "Q",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 23,
+            "winner": false
+          }
+        }
+      ],
+      "id": "1694109739103-x2zg98dkmf-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694109739103,
+      "winner": {
+        "id": 0,
+        "name": "Dealer",
+        "order": 0,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Hearts",
+              "value": "9",
+              "weight": 9
+            },
+            {
+              "symbol": "Spades",
+              "value": "A",
+              "weight": 11
+            }
+          ],
+          "done": false,
+          "value": 20,
+          "winner": false
+        }
+      },
+      "winnerValue": 20,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Spades",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "symbol": "Spades",
+                "value": "5",
+                "weight": 5
+              },
+              {
+                "symbol": "Hearts",
+                "value": "3",
+                "weight": 3
+              },
+              {
+                "symbol": "Hearts",
+                "value": "4",
+                "weight": 4
+              },
+              {
+                "symbol": "Spades",
+                "value": "Q",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 26,
+            "winner": true
+          }
+        },
+        {
+          "id": 25611874,
+          "name": "Paulita",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Spades",
+                "value": "6",
+                "weight": 6
+              },
+              {
+                "symbol": "Hearts",
+                "value": "9",
+                "weight": 9
+              },
+              {
+                "symbol": "Spades",
+                "value": "9",
+                "weight": 9
+              }
+            ],
+            "done": true,
+            "value": 24,
+            "winner": true
+          }
+        },
+        {
+          "id": 10060483,
+          "name": "Milti",
+          "order": 2,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Spades",
+                "value": "8",
+                "weight": 8
+              },
+              {
+                "symbol": "Clubs",
+                "value": "10",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 18,
+            "winner": true
+          }
+        }
+      ],
+      "id": "1694109776692-whwlq3a33e-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694109776692,
+      "winner": {
+        "id": 10060483,
+        "name": "Milti",
+        "order": 2,
+        "hand": {
+          "cards": [
+            {
+              "symbol": "Spades",
+              "value": "8",
+              "weight": 8
+            },
+            {
+              "symbol": "Clubs",
+              "value": "10",
+              "weight": 10
+            }
+          ],
+          "done": true,
+          "value": 18,
+          "winner": true
+        }
+      },
+      "winnerValue": 18,
+      "draw": false
+    },
+    {
+      "players": [
+        {
+          "id": 0,
+          "name": "Dealer",
+          "order": 0,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Spades",
+                "value": "9",
+                "weight": 9
+              },
+              {
+                "symbol": "Hearts",
+                "value": "K",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 19,
+            "winner": true
+          }
+        },
+        {
+          "id": 25611874,
+          "name": "Paulita",
+          "order": 1,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Hearts",
+                "value": "7",
+                "weight": 7
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "J",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 17,
+            "winner": true
+          }
+        },
+        {
+          "id": 10060483,
+          "name": "Milti",
+          "order": 2,
+          "hand": {
+            "cards": [
+              {
+                "symbol": "Spades",
+                "value": "9",
+                "weight": 9
+              },
+              {
+                "symbol": "Diamonds",
+                "value": "J",
+                "weight": 10
+              }
+            ],
+            "done": true,
+            "value": 19,
+            "winner": true
+          }
+        }
+      ],
+      "id": "1694109812398-uypercxol3-BLACKJACK-SIMPLE-UUID",
+      "done": true,
+      "timestamp": 1694109812398,
+      "draw": true
+    }
+  ]
+}
