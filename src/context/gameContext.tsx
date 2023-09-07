@@ -7,7 +7,7 @@ import {
   Component,
 } from "react";
 import { DateTime } from "luxon";
-import { BlackJackUtils } from "@/lib/Game";
+import { BlackJackUtils } from "@/lib/BlackJackUtils";
 import { DEALER_ORDER, DEALER_ID, uuid, TIMEZONE } from "@/utils";
 import { Card, Deck, Player, Round, InitPlayer, Action, IGame } from "@/types";
 
@@ -280,8 +280,7 @@ export class GameProvider extends Component<
   };
 
   storeRound = async (round: Round) => {
-    console.log("storing round", round);
-    await fetch("/api/rounds", {
+    return await fetch("/api/rounds", {
       method: "POST",
       headers: {},
       body: JSON.stringify({ round }),

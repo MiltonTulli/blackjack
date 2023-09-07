@@ -1,8 +1,6 @@
 "use client";
 import { Card as ICard } from "@/types";
-import { BlackJackUtils } from "@/lib/Game";
-// import { Card as UICard } from "@nextui-org/react";
-// import { getCipherInfo } from "crypto";
+import { BlackJackUtils } from "@/lib/BlackJackUtils";
 
 const getColor = (symbol: string, hidden: boolean) => {
   if (hidden) return "black";

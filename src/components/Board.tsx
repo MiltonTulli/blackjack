@@ -1,23 +1,14 @@
 "use client";
 import React, { useEffect } from "react";
-
 import { useGame } from "@/context/gameContext";
 import { Button } from "@nextui-org/react";
 import { Card } from "@/components/Card";
 import { Setup } from "./Setup";
-import { DateTime } from "luxon";
 import { RoundsTable } from "@/components/RoundsTable";
 import { useSecondsCounter } from "@/hooks/counter";
 
 import { FallbackCard } from "@/components/FallbackCard";
-import {
-  Badge,
-  Avatar,
-  Spinner,
-  Divider,
-  ButtonGroup,
-  Chip,
-} from "@nextui-org/react";
+import { Avatar, Divider, ButtonGroup, Chip } from "@nextui-org/react";
 import { Action } from "@/types";
 import { DEALER_ID } from "@/utils";
 

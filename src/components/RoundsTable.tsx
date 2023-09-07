@@ -13,7 +13,7 @@ import {
 } from "@nextui-org/react";
 import { useGame } from "@/context/gameContext";
 import { DEALER_ID, TIMEZONE } from "@/utils";
-import { BlackJackUtils } from "@/lib/Game";
+import { BlackJackUtils } from "@/lib/BlackJackUtils";
 import { Round } from "@/types";
 
 const columns = [
@@ -40,7 +40,6 @@ export function RoundsTable() {
         // Just for this example I will fetch only first player data
         const response = await fetch(`/api/user/${playerNames[0]}/rounds`);
         const json: { data: Round[] } = await response.json();
-        console.log("json", json);
         setOldRounds(json.data);
       } catch (e) {
         // TODO: handle error
