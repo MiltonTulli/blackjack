@@ -228,6 +228,7 @@ export class GameProvider extends Component<
 
     // Implement the dealer's logic (hit until 17)
     while (dealerHandValue < 17) {
+      await this.waitForDealer();
       const card = blackJack.drawCard();
       this.setState(
         (prev) => ({

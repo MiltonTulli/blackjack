@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 interface SecondsCounterHook {
   seconds: number;
@@ -9,26 +9,28 @@ interface SecondsCounterHook {
 export function useSecondsCounter(): SecondsCounterHook {
   const [seconds, setSeconds] = useState<number>(0);
   const [isActive, setIsActive] = useState<boolean>(false);
-  let interval: NodeJS.Timeout | null = null;
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     if (isActive) {
-      interval = setInterval(() => {
+      intervalRef.current = setInterval(() => {
         setSeconds((prevSeconds) => prevSeconds + 1);
       }, 1000);
     } else {
-      clearInterval(interval!);
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
     }
 
     return () => {
-      if (interval) {
-        clearInterval(interval);
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
       }
     };
   }, [isActive]);
 
   const reset = () => {
-    // starts counting right away
+    // Starts counting right away
     setSeconds(0);
     setIsActive(true);
   };

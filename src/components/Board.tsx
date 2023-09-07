@@ -35,7 +35,7 @@ export const Board: React.FC<Props> = ({ children }) => {
 
   useEffect(() => {
     reset();
-  }, [game.currentPlayerTurn]);
+  }, [game.currentPlayerTurn]); // eslint-disable-line
 
   return (
     <div className="border-1 p-8 border-slate-600">

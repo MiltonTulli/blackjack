@@ -28,7 +28,7 @@ export function RoundsTable() {
 
   const gameData = React.useMemo(
     () => game.rounds.filter((round) => round.done),
-    [game.rounds.length]
+    [game.rounds.length] // eslint-disable-line
   );
 
   useEffect(() => {
@@ -47,7 +47,7 @@ export function RoundsTable() {
       }
     };
     fetchPreviousRounds();
-  }, [game.players.length]);
+  }, [game.players.length]); // eslint-disable-line
 
   const data = [...gameData, ...oldRounds];
 
@@ -69,7 +69,7 @@ export function RoundsTable() {
                 .join("  ");
               const label = `${player.name} | ${cards} | ${player.hand.value} Points`;
               return (
-                <Tooltip content={label}>
+                <Tooltip key={player.id} content={label}>
                   <Avatar
                     src={`https://api.dicebear.com/7.x/pixel-art/svg?seed=${player.name}`}
                   />

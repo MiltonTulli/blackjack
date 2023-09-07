@@ -21,3 +21,4 @@ export const DECKS_AMOUNT = 6;
 export const DEALER_ORDER = 0;
 export const DEALER_ID = 0;
 export const TIMEZONE = "America/Los_Angeles";
+export const DEFAULT_GAME_DELAY = 1000;

@@ -1,6 +1,7 @@
-import React, { ChangeEvent, HTMLAttributeAnchorTarget } from "react";
+import React from "react";
 import { Input, Button } from "@nextui-org/react";
 import { useGame } from "@/context/gameContext";
+import { DEFAULT_GAME_DELAY } from "@/utils";
 import { IconUserPlus } from "@tabler/icons-react";
 import { Listbox, ListboxItem } from "@nextui-org/react";
 
@@ -30,7 +31,7 @@ export function Setup() {
   };
 
   const handleBoot = () => {
-    game.create(3000, players);
+    game.create(DEFAULT_GAME_DELAY, players);
   };
 
   return (
