@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Blackjack Game
+
+Welcome to the Next.js Blackjack game! This is a simple implementation of the classic card game Blackjack (also known as 21) where you can play against an automated dealer.
 
 ## Getting Started
 
-First, run the development server:
+To run the game, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. **Clone the Repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/MiltonTulli/blackjack.git
+   cd blackjack
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+   The game will be available at http://localhost:3000 in your web browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Database
 
-## Learn More
+The FakeDb class stored in `/src/lib/DB.ts` simulates a simple database for storing and retrieving rounds of the Blackjack game. It doesn't use an actual database system like SQL or NoSQL; instead, it stores data in a JSON file (db.json) on the server's file system.
 
-To learn more about Next.js, take a look at the following resources:
+### API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Endpoints available are:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `GET:: /api/rounds`: return all rounds stored in db
+- `POST:: /api/rounds`: insert a new round in db
+- `GET:: /api/user/{userName}/rounds`: return rounds by userName
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Milton Tulli](https://github.com/miltontulli)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enjoy playing Blackjack!
