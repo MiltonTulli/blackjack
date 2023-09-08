@@ -50,10 +50,15 @@ export const Board: React.FC<Props> = ({ children }) => {
           return (
             <div
               key={player.id}
-              className={`shadow-2xl border-1 border-slate-600 gap-3 p-6 relative ${
+              className={`shadow-2xl border-1  gap-3 p-6 relative ${
                 isWinner && isRoundFinished ? "bg-green-900" : ""
               }
               ${isDraw ? "bg-yellow-00" : ""}
+              ${
+                myTurn && !isRoundFinished
+                  ? "border-green-400"
+                  : "border-slate-600"
+              }
               ${!isWinner && !isDraw && isRoundFinished ? "bg-red-900" : ""}
               rounded-2xl flex-1
               `}
