@@ -38,6 +38,10 @@ Endpoints available are:
 ### Image
 <img width="1715" alt="Screenshot 2023-09-07 at 15 58 40" src="https://github.com/MiltonTulli/blackjack/assets/25844967/d6db4aeb-dea3-4ecc-9ad1-011793efbfbe">
 
+### Demo:
+You can try the game at https://blackjack-wl58.vercel.app/
+Note: since db strategy won't work at vercel deployment you won't see your results after refreshing the app. 
+
 
 ## Author
 
