@@ -41,7 +41,7 @@ export const Board: React.FC<Props> = ({ children }) => {
         </h1>
       </div>
       {!game.booted && <Setup />}
-      <div className="grid gap-3 grid-flow-col-dense">
+      <div className="flex gap-8 flex-wrap justify-center">
         {game.players.map((player) => {
           const myTurn = game.currentPlayerTurn === player.order;
           const isWinner =
@@ -55,8 +55,13 @@ export const Board: React.FC<Props> = ({ children }) => {
               }
               ${isDraw ? "bg-yellow-00" : ""}
               ${!isWinner && !isDraw && isRoundFinished ? "bg-red-900" : ""}
-              rounded-2xl
+              rounded-2xl flex-1
               `}
+              style={{
+                maxWidth: "480px",
+                overflow: "hidden",
+                minWidth: "400px",
+              }}
             >
               {myTurn && !isRoundFinished && (
                 <>

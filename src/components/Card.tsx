@@ -19,11 +19,11 @@ export const Card = ({ card, hidden = false, index }: CardProps) => {
   const color = getColor(card.symbol, hidden);
 
   const style = {
-    transform: `translate(-${index * 80}px, ${index * 2}px) rotate(${
-      index * 5
-    }deg)`,
+    transform: `translate(-${index * 70}px, 0px) rotate(-2deg)`,
     opacity: hidden ? 0.5 : 1,
     color: color,
+    minWidth: "8rem",
+    minHeight: "12rem",
   };
 
   const baseTextClass = `text font-bold`;
